@@ -22,4 +22,4 @@ jobs:
         uses: Azure/cli@v2.1.0
         with:
           inlinesript: |
-            az deployment sub create --location "US East" --template-file ./arm-templates/resourcegroup.json  --azcliversion 2.70.0
+            az deployment sub create --location "US East" --template-file ./arm-templates/resourcegroup.json  --azcliversion: agentazcliversion
